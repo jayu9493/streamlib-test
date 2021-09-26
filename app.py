@@ -225,7 +225,8 @@ def app_video_filters():
         
     )
 def app_facerecognition():
-    video_capture = cv2.VideoCapture(0)
+    i = 1
+video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
 obama_image = face_recognition.load_image_file("obama.jpg")
